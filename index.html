@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mini calc</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://rsms.me/" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="calc_card">
+            <div class="tools">
+            <div class="circle">
+                <span class="red box"></span>
+            </div>
+            <div class="circle">
+                <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+                <span class="green box"></span>
+            </div>
+            </div>
+            <div class="calc_content">
+                <form>
+                    <div class="screen">
+                        <div class="result" id="result"></div>
+                        <div class="operations">
+                            <input type="text" name="first_input" id="first_input">
+                            <div class="operators_input" id="operators_input"></div>
+                            <input type="text" name="second_input" id="second_input">
+                        </div>
+                    </div>
+                    <div class="operators">
+                        <div class="plus-minus">
+                            <input type="button" value="plus" id="plus">
+                            <input type="button" value="minus" id="minus"> 
+                        </div>
+                        <div class="multiply-divide">
+                            <input type="button" value="multiply" id="multiply">
+                            <input type="button" value="divide" id="divide">
+                        </div>
+                        <input type="button" value="allclear" id="allclear">
+                    </div>
+                </form> 
+            </div>
+        </div>
+        </div>
+        <script src="js/calculation.js"></script> 
+    </body>
+</html>
