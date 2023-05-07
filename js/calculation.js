@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     document.getElementById('allclear').addEventListener('click', function() {
       operators = 5;
-      operatorsInput.innerHTML = 'ac';
+      operatorsInput.innerHTML = '';
       result = 0;
       resultDisplay.innerHTML = result;
       firstInput.value = '';
